@@ -3,7 +3,7 @@ version: '2'
 services: 
   express:
     build: .
-    image: mprather1/docker_express:0.1.0
+    image: mprather1/docker_express:0.1.1
     container_name: shintech-express
     env_file:
       - ./docker.env
